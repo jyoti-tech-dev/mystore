@@ -1,0 +1,16 @@
+<div>
+    <h1>Products</h1>
+    <ul class="product">
+        <li *ngFor="let product of products">
+            
+            <h3>{{product.name}}</h3>
+            <p *ngIf="product.description">Description: {{product.description}}</p>
+            <span><button class="btn" type="button" (click)="onClick()">share</button></span>
+            <span><button class="btn" type="button" (click)="onBuy()">buy</button></span>
+            <app-notify-me [product]="product" (notify)="onNotify()"></app-notify-me>
+
+    </li>
+    </ul>
+   
+</div>
+

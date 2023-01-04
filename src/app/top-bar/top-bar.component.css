@@ -1,0 +1,20 @@
+.product{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+
+}
+.name{
+    background-color: blue;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.button{
+    float: right;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: auto;
+    color: blue;
+    
+}  
